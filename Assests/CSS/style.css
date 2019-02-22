@@ -1,0 +1,75 @@
+/* the * is a common technique, used as a universal selector encompassing all elements included */
+* {
+    Box-sizing: border-box;
+
+}
+
+header {
+    font-weight: bold;
+    border-bottom: solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 0px 0px 38px 0px;
+    display: inline-block;
+    width: 100;
+    
+    
+
+    
+}
+
+/* writing in the body allows all your elements to be uniform, unless indicated otherwise*/
+body {
+  
+    Background-image: url("../Images/Kream.jpg");
+    background-repeat: repeat;
+   /* Can also shorthand it out.
+    background: url('../Images/Kream.jpg') repeat;*/
+    
+    Background-color: #4aaaa5;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto
+    
+    
+}
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    width: 38%;
+   padding: 0 auto;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+/* influences all headings listed, except the main heading, to follow uniform font*/
+h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #4aaaa5;
+        
+}
+
+/*contains everything inside this wrapper class*/
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+/*manipulate the navigator tool bar, this will allow us to float and adjust/align the text in the nav bar*/
+nav{
+    width: 400px;
+    float: right;
+    align-content: center; 
+}
+
+/* specifying lists that are contained inside the unordered list that are contained inside a nav tag <nav> labeled with a*/
+Nav a{
+    color: #777777;
+    font-size: 16px;
+    padding: 3px 15px;
+    text-decoration: none;
+    border-right: 2px solid ghostwhite;
+}
+
