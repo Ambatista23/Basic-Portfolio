@@ -6,12 +6,20 @@
 
 header {
     font-weight: bold;
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+    width: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+   /* font-weight: bold;
     border-bottom: solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
     margin: 0px 0px 38px 0px;
     display: inline-block;
-    width: 100;
+    width: 100;*/
     
     
 
@@ -36,10 +44,10 @@ body {
 h1 {
     color: white;
     background-color: #4aaaa5;
-    width: 38%;
-   padding: 0 auto;
-    display: inline-block;
+    width: 27%;
+    line-height: 80px;
     text-align: center;
+    margin: 0 151px;
     
 
 }
@@ -62,6 +70,8 @@ nav{
     width: 400px;
     float: right;
     align-content: center; 
+    display: inline-block;
+    
 }
 
 /* specifying lists that are contained inside the unordered list that are contained inside a nav tag <nav> labeled with a*/
@@ -71,5 +81,12 @@ Nav a{
     padding: 3px 15px;
     text-decoration: none;
     border-right: 2px solid ghostwhite;
+    
 }
-
+footer {
+    background: #555555;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

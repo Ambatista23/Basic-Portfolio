@@ -4,22 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" href="Assests/CSS/style.css">
+    
 </head>
 
+<!----header>Andre Moraes Batista</header-->
 
 <body>
+    <!--Use a wrapper to constrain the content-->
     <header>
-         <div class="wrapper">
-            <h1>Andre Moraes Batista</h1>
-                <ul>
-                    <list><a href="index.html">About</a></list>
-                    <list><a href="contact.html">Contact</a></list>
-                    <list><a href="Portfolio.html">Portfolio</a></list>
-                </ul>
-        </div>
         
-            </header>
+            <h1>Andre Moraes Batista</h1>
+
+        <div class="wrapper">  
+            <!--nav tag to define navigation links, set of links being manipulated-->
+                <nav>
+                    <ul>
+                        <!--Created an unordered list to create the nav. bar-->
+                        <list><a href="index.html">About</a></list>
+                        <list><a href="contact.html">Contact</a></list>
+                        <list><a href="Portfolio.html">Portfolio</a></list>
+                    </ul>
+                </nav>
+        </div>
+
+    </header>
+
+        <div class="wrapper">
+            <!--Create an ID for to manipulate it indepently-->
+            <section id="block">
+                <h2>Contact</h2>
+                    <h3>Name</h3>
+                    <form action="/action_page.php">
+                       First Name: <input type="text" name="JohnSmith"></br>
+                       <br>
+                       Last Name: <input type="text" name="Janedoe"><br>
+                        
+                      </form>
+                    <h3>Email</h3>
+                        Email: <input type="text" name="email"><br>
+                    <h3>Message</h3>
+                        Message: <input type="text" name="Message" size="35"><br>
+                        <br>
+                    <input type="submit" value="Submit" size>
+               
+            </section>
+        
+        </div>
+        <!--anything below float will go back to normal with clearfix, used to force a break in the page-->
+        <div class="clearfix"></div>
+
+        <footer>
+            <!--code for copyright symbol-->
+            &copy;2019 Andre Moraes Batista
+
+        </footer>
+</body>
+</html>
         
 
 </body>
